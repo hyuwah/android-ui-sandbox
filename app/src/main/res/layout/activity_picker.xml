@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="io.github.hyuwah.uisandbox.PickerActivity">
+
+    <TextView
+       style="@style/module_text_info"
+        android:text="Date Picker" />
+
+    <EditText
+        android:id="@+id/et_date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/module_text_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Picker" />
+
+    <EditText
+        android:id="@+id/et_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/module_text_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Picker" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -26,8 +26,16 @@
             android:name=".ButtonComponentActivity"
             android:label="Buttons"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/ModuleTheme"
-            />
+            android:theme="@style/ModuleTheme" />
+        <activity
+            android:name=".SeekbarComponentActivity"
+            android:label="Seekbar"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ModuleTheme" />
+        <activity android:name=".PickerActivity"
+            android:label="Pickers"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ModuleTheme"/>
     </application>
 
 </manifest>

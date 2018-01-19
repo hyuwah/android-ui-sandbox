@@ -1,14 +1,10 @@
 package io.github.hyuwah.uisandbox;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.LinearGradient;
-import android.graphics.Shader;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.widget.GridLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -52,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case GRID_ITEM_BTN:
                         Toast.makeText(this, "Buttons", Toast.LENGTH_SHORT).show();
-                        Intent iButtonComponantAct = new Intent(this, ButtonComponentActivity.class);
-                        startActivity(iButtonComponantAct);
+                        Intent iButtonComponentAct = new Intent(this, ButtonComponentActivity.class);
+                        startActivity(iButtonComponentAct);
                         break;
                     case GRID_ITEM_SPINNER:
                         Toast.makeText(this, "Spinner", Toast.LENGTH_SHORT).show();
@@ -65,11 +61,13 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case GRID_ITEM_SEEKBAR:
                         Toast.makeText(this, "Seekbar", Toast.LENGTH_SHORT).show();
-
+                        Intent iSeekbarComponentAct = new Intent(this, SeekbarComponentActivity.class);
+                        startActivity(iSeekbarComponentAct);
                         break;
                     case GRID_ITEM_PICKERS:
                         Toast.makeText(this, "Pickers", Toast.LENGTH_SHORT).show();
-
+                        Intent iPickerComponentAct = new Intent(this, PickerActivity.class);
+                        startActivity(iPickerComponentAct);
                         break;
                     case 6:
                         Toast.makeText(this, "Toast 6", Toast.LENGTH_SHORT).show();
