@@ -20,7 +20,8 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Plain ol' TextView"
+            android:textColor="@android:color/black" />
 
         <TextView
             style="@style/module_text_info"
@@ -31,7 +32,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Name"
+            android:hint="Name"
+            android:drawableStart="@drawable/ic_person_grey_24dp"
+            android:drawablePadding="8dp"
+            />
 
         <TextView
             style="@style/module_text_info"
@@ -42,7 +47,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="password"/>
+            android:text="password"
+            android:hint="Password"
+            android:drawableStart="@drawable/ic_lock_grey_24dp"
+            android:drawableTintMode="multiply"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -53,7 +62,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberPassword"
-            android:text="123456"/>
+            android:text="123456"
+            android:hint="123456"
+            android:drawableStart="@drawable/ic_lock_grey_24dp"
+            android:drawableTintMode="screen"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -64,7 +77,10 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="someone@example.com"/>
+            android:text="someone@example.com"
+            android:hint="someone@example.com"
+            android:drawableStart="@drawable/ic_email_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -75,7 +91,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="phone"
-            android:text="08112345678"/>
+            android:text="08112345678"
+            android:drawableStart="@drawable/ic_phone_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -85,7 +103,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPostalAddress" />
+            android:inputType="textPostalAddress"
+            android:drawableStart="@drawable/ic_home_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -96,7 +116,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:text="First Line\nSecond Line"/>
+            android:text="First Line\nSecond Line"
+            android:drawableStart="@drawable/ic_short_text_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -106,7 +128,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="time" />
+            android:inputType="time"
+            android:drawableStart="@drawable/ic_access_time_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -116,7 +140,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="date" />
+            android:inputType="date"
+            android:drawableStart="@drawable/ic_date_range_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -127,7 +153,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number"
-            android:text="123456789"/>
+            android:text="123456789"
+            android:drawableStart="@drawable/ic_looks_one_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"
@@ -138,7 +166,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberSigned"
-            android:text="-123"/>
+            android:text="-123"
+            android:drawableStart="@drawable/ic_plus_one_grey_24dp"
+            android:drawablePadding="8dp"/>
 
         <TextView
             style="@style/module_text_info"

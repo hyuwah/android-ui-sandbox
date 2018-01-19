@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#ddd">
+        android:background="#eee">
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -27,6 +27,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="UI Sandbox"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textColor="#fff"
                 android:textSize="32sp" />
         </FrameLayout>
@@ -62,11 +64,8 @@
                         android:tint="#BDBDBD" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextView &amp; EditText"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="TextView &amp; EditText" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -92,11 +91,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Buttons"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Buttons"/>
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -122,11 +118,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Spinner"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Spinner" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -152,11 +145,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ImageView"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="ImageView" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -182,11 +172,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Seekbar"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Seekbar"/>
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -212,11 +199,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Pickers"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Pickers" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -243,11 +227,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Placeholder"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Placeholder"/>
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -273,11 +254,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Placeholder"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Placeholder"/>
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -303,11 +281,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Placeholder"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Placeholder"/>
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -333,11 +308,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Placeholder"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Placeholder" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -363,11 +335,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Placeholder"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Placeholder" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -393,11 +362,8 @@
                         android:tint="#BDBDBD"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Placeholder"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black" />
+                        style="@style/main_grid_item_text"
+                        android:text="Placeholder" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>

@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="io.github.hyuwah.uisandbox.component.button.ImageButtonFragment">
+
+    <TextView
+        style="@style/module_text_info"
+        android:text="Image Button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:tint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_image_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:scaleType="fitCenter"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/ic_person_grey_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:src="@drawable/ic_build_24dp"
+            android:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:padding="32dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/word" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:padding="32dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/excel" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:backgroundTint="#ddd"
+            android:padding="32dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/vscode" />
+    </LinearLayout>
+
+</LinearLayout>

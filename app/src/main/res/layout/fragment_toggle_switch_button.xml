@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.github.hyuwah.uisandbox.component.button.ToggleSwitchButtonFragment">
+
+
+    <TextView
+        style="@style/module_text_info"
+        android:text="Toggle &amp; Switch Button" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ToggleButton" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:showText="true"
+        android:splitTrack="false"
+        android:switchMinWidth="48dp"
+        android:text="Switch"
+        android:textOff="O"
+        android:textOn="I"
+        tools:checked="false" />
+
+</LinearLayout>

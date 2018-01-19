@@ -1,10 +1,14 @@
 package io.github.hyuwah.uisandbox;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.LinearGradient;
+import android.graphics.Shader;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.widget.GridLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
     final int GRID_ITEM_PICKERS = 5;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,24 +34,26 @@ public class MainActivity extends AppCompatActivity {
         setGridItemClickEvent(glHome);
     }
 
-    private void setGridItemClickEvent(GridLayout glHome){
+    private void setGridItemClickEvent(GridLayout glHome) {
         // Loop all child item of Grid Layout
-        for(int i=0; i<glHome.getChildCount(); i++){
+        for (int i = 0; i < glHome.getChildCount(); i++) {
 
             CardView cvCurrentItem = (CardView) glHome.getChildAt(i);
 
             final int index = i;
 
-            cvCurrentItem.setOnClickListener(view->{
+            cvCurrentItem.setOnClickListener(view -> {
 
-                switch(index){
+                switch (index) {
                     case GRID_ITEM_TV_ET:
                         Toast.makeText(this, "TextView & EditText", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(this,TextComponentActivity.class);
-                        startActivity(intent);
+                        Intent iTextComponentAct = new Intent(this, TextComponentActivity.class);
+                        startActivity(iTextComponentAct);
                         break;
                     case GRID_ITEM_BTN:
                         Toast.makeText(this, "Buttons", Toast.LENGTH_SHORT).show();
+                        Intent iButtonComponantAct = new Intent(this, ButtonComponentActivity.class);
+                        startActivity(iButtonComponantAct);
                         break;
                     case GRID_ITEM_SPINNER:
                         Toast.makeText(this, "Spinner", Toast.LENGTH_SHORT).show();

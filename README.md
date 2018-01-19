@@ -9,7 +9,10 @@ Sample app to learn android UI component
 - [x] Splash screen
 - [x] Main catalogue
 - [x] TextView & EditText
-- [ ] Buttons
+    - [ ] AutoComplete TextView
+    - [ ] MultiAutoComplete TextView
+- [x] Buttons (Fragmented)
+    - [ ] Checked TextView
 - [ ] Spinner
 - [ ] ImageView
 - [ ] Seekbar

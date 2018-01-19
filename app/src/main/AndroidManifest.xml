@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +19,15 @@
         </activity>
         <activity
             android:name=".TextComponentActivity"
+            android:label="TextView &amp; EditText"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ModuleTheme" />
+        <activity
+            android:name=".ButtonComponentActivity"
+            android:label="Buttons"
             android:parentActivityName=".MainActivity"
             android:theme="@style/ModuleTheme"
-            android:label="TextView &amp; EditText"
-            ></activity>
+            />
     </application>
 
 </manifest>
